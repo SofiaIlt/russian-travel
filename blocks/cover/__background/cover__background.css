@@ -1,0 +1,13 @@
+.cover__background {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    width: 92.5vw;
+    height: 740px;
+    opacity: 0.3;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cover__background:hover {
+    opacity: 0.8;
+}

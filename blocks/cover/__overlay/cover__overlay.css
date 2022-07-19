@@ -1,0 +1,7 @@
+.cover__overlay {
+    display: grid;
+    grid-template-columns: minmax(auto, 312px) 560px minmax(auto, 312px);
+    grid-template-rows: 245px 250px 245px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
