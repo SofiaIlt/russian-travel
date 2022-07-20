@@ -1,7 +1,28 @@
 .cover__overlay {
     display: grid;
-    grid-template-columns: minmax(auto, 312px) 560px minmax(auto, 312px);
-    grid-template-rows: 245px 250px 245px;
+    grid-template-columns: minmax(auto, 312px) minmax(auto, 560px) minmax(auto, 312px);
+    grid-template-rows: minmax(auto, 245px) minmax(auto, 250px) minmax(auto, 245px);
     text-decoration: none;
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cover__overlay {
+        grid-template-columns: minmax(auto, 232px) minmax(auto, 560px) minmax(auto, 232px);
+        grid-template-rows: minmax(auto, 195px) minmax(auto, 250px) minmax(auto, 195px);
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .cover__overlay {
+        grid-template-columns: minmax(auto, 104px) minmax(auto, 560px) minmax(auto, 104px);
+        grid-template-rows: minmax(auto, 115px) minmax(auto, 250px) minmax(auto, 115px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        grid-template-columns: minmax(auto, 16px) minmax(auto, 288px) minmax(auto, 16px);
+        grid-template-rows: minmax(auto, 33px) minmax(auto, 134px) minmax(auto, 33px);
+    }
 }

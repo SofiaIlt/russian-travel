@@ -1,13 +1,14 @@
 .cover__background {
     grid-column: 1/4;
     grid-row: 1/4;
-    width: 92.5vw;
-    height: 740px;
-    opacity: 0.3;
-    object-fit: cover;
-    object-position: center;
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    background-image: url(../../../images/__background.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .cover__background:hover {
-    opacity: 0.8;
+    opacity: 0.3;
 }

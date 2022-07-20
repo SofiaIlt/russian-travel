@@ -22,4 +22,4 @@
 
 Удачи!
 
-###[Ссылка на gh pages](https://sofiailt.github.io/russian-travel/)
+* [Ссылка на gh pages](https://sofiailt.github.io/russian-travel/)

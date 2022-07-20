@@ -1,26 +1,23 @@
-.places {
+.place {
     display: grid;
-    gap: 80px;
-    width: 76.8%;
-    max-width: 984px;
+    gap: 48px 40px;
+    text-align: left;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .places {
-        width: 90.6%;
+    .place {
+        gap: 48px 32px;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 768px) {
-    .places {
-        width: 93.75%;
-        gap: 73px;
+    .place {
+        gap: 48px 28px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .places {
-        width: 100%;
-        gap: 50px;
+    .place {
+        row-gap: 32px;
     }
 }
