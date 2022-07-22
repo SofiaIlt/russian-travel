@@ -21,6 +21,8 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .cover__title {
         padding: 115px 0 32px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
 
